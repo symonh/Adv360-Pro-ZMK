@@ -1,3 +1,21 @@
+macro_nextmonitor: macro_nextmonitor{
+compatible = "zmk,behavior-macro";
+label = "macro_nextmonitor";
+#binding-cells = <0>;
+bindings = <&kp LEFT_COMMAND>, <&kp LEFT_ALT>, <&kp N>;
+};
+macro_invert: macro_invert{
+compatible = "zmk,behavior-macro";
+label = "macro_invert";
+#binding-cells = <0>;
+bindings = <&kp LEFT_CONTROL>, <&kp LEFT_ALT>, <&kp LEFT_COMMAND>, <&kp NUMBER_8>;
+};
+macro_shiftcontcomm: macro_shiftcontcomm{
+compatible = "zmk,behavior-macro";
+label = "macro_shiftcontcomm";
+#binding-cells = <0>;
+bindings = <&kp LEFT_SHIFT>, <&kp LEFT_CONTROL>, <&kp LEFT_COMMAND>;
+};
 macro_quotes: macro_quotes{
 compatible = "zmk,behavior-macro";
 label = "macro_quotes";

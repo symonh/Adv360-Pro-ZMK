@@ -4,12 +4,6 @@ label = "macro_nextmonitor";
 #binding-cells = <0>;
 bindings = <&mt LEFT_COMMAND LEFT_ALT>, <&kp N>;
 };
-macro_invert: macro_invert{
-compatible = "zmk,behavior-macro";
-label = "macro_invert";
-#binding-cells = <0>;
-bindings = <&mt LEFT_CONTROL LEFT_ALT>, <&mt LEFT_COMMAND undefined>, <&kp NUMBER_8>;
-};
 macro_shiftcontcomm: macro_shiftcontcomm{
 compatible = "zmk,behavior-macro";
 label = "macro_shiftcontcomm";

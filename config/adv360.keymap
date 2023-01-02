@@ -40,9 +40,9 @@
         default_layer {
             bindings = <
   &kp EQUAL   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5            &macro_dquotes             &mo 3             &kp N6     &kp N7     &kp N8             &kp N9         &kp N0      &kp MINUS
-    &kp ESC    &kp Q      &kp W     &kp F     &kp R     &kp B                &kp RETURN       &kp PAGE_UP              &kp Y      &kp U      &kp I              &kp O          &kp P       &kp BSLH
-    &kp TAB    &kp A      &kp S     &kp D     &kp T     &kp G            &kp LEFT_SHIFT  &kp LEFT_COMMAND           &kp LALT                        &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp M   &kp N      &kp E    &kp L  &kp SEMI    &kp SQT
-  &kp LSHFT    &kp Z      &kp X     &kp C     &kp J     &kp V                     &none             &none            &kp ESC      &none      &none           &kp CAPS          &none          &none      &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+    &kp ESC    &kp Q      &kp W     &kp F     &kp J     &kp B                &kp RETURN       &kp PAGE_UP              &kp Y      &kp U      &kp I              &kp O          &kp P       &kp BSLH
+    &kp TAB    &kp A      &kp R     &kp S     &kp T     &kp G            &kp LEFT_SHIFT  &kp LEFT_COMMAND           &kp LALT                        &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp M   &kp N      &kp E    &kp L  &kp SEMI    &kp SQT
+  &kp LSHFT    &kp Z      &kp X     &kp C     &kp D     &kp V                     &none             &none            &kp ESC      &none      &none           &kp CAPS          &none          &none      &kp K   &kp H  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
  &kp RETURN  &kp DEL  &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSPC                 &kp SPACE  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp ENTER  &kp SPACE           &kp LEFT         &kp UP       &kp DOWN  &kp RIGHT   &mo 1
             >;
         };

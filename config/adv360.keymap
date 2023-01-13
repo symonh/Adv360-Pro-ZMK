@@ -78,12 +78,12 @@
         };
 
         layer_Layer__4 {
-            bindings = <
- &kp TILDE  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-     &none  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+             bindings = <
+  &kp EQUAL   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5            &macro_dquotes             &mo 3             &kp N6     &kp N7     &kp N8             &kp N9         &kp N0      &kp MINUS
+    &kp ESC    &kp Q      &kp W     &kp E     &kp R     &kp T                &kp RETURN       &kp PAGE_UP              &kp Y      &kp U      &kp I              &kp O       &kp SEMI       &kp BSLH
+    &kp TAB    &kp A      &kp S     &kp D     &kp F     &kp G            &kp LEFT_SHIFT  &kp LEFT_COMMAND           &kp LALT                        &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp H   &kp J      &kp K    &kp L     &kp P    &kp SQT
+  &kp LSHFT    &kp Z      &kp X     &kp C     &kp V     &kp B                     &none             &none            &kp ESC      &none      &none           &kp CAPS          &none          &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
+ &kp RETURN  &kp DEL  &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSPC                 &kp SPACE  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp ENTER  &kp SPACE           &kp LEFT         &kp UP       &kp DOWN  &kp RIGHT   &mo 1
             >;
         };
 

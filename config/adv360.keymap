@@ -79,11 +79,11 @@
 
         layer_Semi_p {
             bindings = <
- &kp TILDE  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
-     &none  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &kp P  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 0
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+  &none  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &kp P  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &tog 0
             >;
         };
 

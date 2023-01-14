@@ -38,25 +38,25 @@
         "&none",        "&none",        "&none",        "&none",        "&none",           "&none",                            "&none",       "&none",        "&none",        "&none",           "&none",        "&none",        "&none",                  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",  "&none",
         "&none",        "&none",        "&none",   "&bl BL_INC",   "&bl BL_DEC", "&rgb_ug RGB_TOG",                       "&bl BL_TOG",       "&none",        "&none",   "&bl BL_TOG", "&rgb_ug RGB_TOG",   "&bl BL_INC",   "&bl BL_DEC",                  "&none",  "&none", "&tog 0"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&mo 1", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
         "&none", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&kp SEMI", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans",   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",  "&kp P", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&tog 0"
     ], [
-       "&trans", "&trans",      "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
+       "&trans", "&trans",      "&trans", "&trans", "&trans", "&trans",            "&mo 1", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
        "&trans", "&trans",      "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans",  "&kp P", "&kp SEMI", "&trans",
        "&trans", "&trans",      "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans",   "&trans", "&trans",  "&kp M",  "&kp N",  "&kp E",  "&kp L",  "&kp O", "&trans",
        "&trans", "&trans", "&key_repeat", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",  "&kp K",  "&kp H", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans",      "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&tog 0"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&mo 1", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
        "&trans", "&trans", "&trans",  "&kp F", "&trans",  "&kp B",           "&trans", "&trans", "&trans", "&trans", "&trans",  "&kp P", "&kp SEMI", "&trans",
        "&trans", "&trans", "&trans", "&trans",  "&kp T",  "&kp G",           "&trans", "&trans", "&trans",                     "&trans",   "&trans", "&trans",  "&kp M",  "&kp N",  "&kp E",  "&kp L",  "&kp O", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans",  "&kp V",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",  "&kp K",  "&kp H", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&tog 0"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",            "&mo 1", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
        "&trans", "&trans", "&trans",  "&kp F", "&trans",  "&kp B",           "&trans", "&trans", "&trans", "&trans", "&trans",  "&kp P", "&kp SEMI", "&trans",
        "&trans", "&trans",  "&kp R",  "&kp S",  "&kp T",  "&kp G",           "&trans", "&trans", "&trans",                     "&trans",   "&trans", "&trans",  "&kp M",  "&kp N",  "&kp E",  "&kp L",  "&kp O", "&trans",
        "&trans", "&trans", "&trans", "&trans",  "&kp D",  "&kp V",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",  "&kp K",  "&kp H", "&trans", "&trans", "&trans", "&trans",

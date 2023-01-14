@@ -79,7 +79,7 @@
 
         layer_Semi_p {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans  &trans  &trans  &trans    &trans  &trans
   &none  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans    &trans  &trans  &trans  &trans  &trans  &trans   &kp P  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -89,7 +89,7 @@
 
         layer_tarmac_1 {
             bindings = <
- &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans       &trans  &trans  &trans  &trans             &mo 1  &trans  &trans  &trans  &trans  &trans    &trans  &trans
  &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
  &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
  &trans  &trans  &key_repeat  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
@@ -99,7 +99,7 @@
 
         layer_Tarmak_2 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans  &trans  &trans  &trans    &trans  &trans
  &trans  &trans  &trans   &kp F  &trans   &kp B            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
  &trans  &trans  &trans  &trans   &kp T   &kp G            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
  &trans  &trans  &trans  &trans  &trans   &kp V            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
@@ -109,7 +109,7 @@
 
         layer_TARMAK_3 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans             &mo 1  &trans  &trans  &trans  &trans  &trans    &trans  &trans
  &trans  &trans  &trans   &kp F  &trans   &kp B            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
  &trans  &trans   &kp R   &kp S   &kp T   &kp G            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
  &trans  &trans  &trans  &trans   &kp D   &kp V            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans

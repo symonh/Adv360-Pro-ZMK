@@ -89,11 +89,11 @@
 
         layer_minimak1 {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans
- &trans  &trans  &trans   &kp F  &trans   &kp J            &trans  &trans  &trans  &trans  &trans  &kp SEMI   &kp P  &trans
- &trans  &trans  &trans  &trans   &kp T  &trans            &trans  &trans  &trans                    &trans  &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
+ &trans  &trans  &trans   &kp F  &trans   &kp J            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
+ &trans  &trans  &trans   &kp D   &kp T  &trans            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;
         };
 

@@ -90,8 +90,8 @@
         layer_minimak1 {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
- &trans  &trans  &trans   &kp F  &trans   &kp G            &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans
- &trans  &trans  &trans  &trans   &kp T   &kp J            &trans  &trans  &trans                  &trans    &trans  &trans  &trans   &kp N   &kp E  &trans   &kp P  &trans
+ &trans  &trans  &trans   &kp F  &trans   &kp J            &trans  &trans  &trans  &trans  &trans  &trans  &kp SEMI  &trans
+ &trans  &trans  &trans  &trans   &kp T  &trans            &trans  &trans  &trans                  &trans    &trans  &trans  &trans   &kp N   &kp E  &trans   &kp P  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
             >;

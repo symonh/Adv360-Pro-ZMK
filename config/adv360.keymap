@@ -39,9 +39,9 @@
 
         default_layer {
             bindings = <
-  &kp EQUAL   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                     &mo 1             &mo 3             &kp N6     &kp N7     &kp N8             &kp N9         &kp N0      &kp MINUS
-    &kp ESC    &kp Q      &kp W     &kp E     &kp R     &kp T                &kp RETURN         &kp PG_UP              &kp Y      &kp U      &kp I              &kp O          &kp P       &kp BSLH
-    &kp TAB    &kp A      &kp S     &kp D     &kp F     &kp G            &kp LEFT_SHIFT  &kp LEFT_COMMAND           &kp LALT                        &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
+  &kp EQUAL   &kp N1     &kp N2    &kp N3    &kp N4    &kp N5                &kp RETURN             &mo 3             &kp N6     &kp N7     &kp N8             &kp N9         &kp N0      &kp MINUS
+    &kp ESC    &kp Q      &kp W     &kp E     &kp R     &kp T            &kp LEFT_SHIFT             &mo 1              &kp Y      &kp U      &kp I              &kp O          &kp P       &kp BSLH
+    &kp TAB    &kp A      &kp S     &kp D     &kp F     &kp G                   &kp TAB  &kp LEFT_COMMAND           &kp LALT                        &kp RIGHT_COMMAND  &kp RIGHT_ALT  &kp PAGE_DOWN      &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
   &kp LSHFT    &kp Z      &kp X     &kp C     &kp V     &kp B                     &none             &none            &kp DEL      &none      &none           &kp CAPS          &none          &none      &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
  &kp RETURN  &kp DEL  &kp GRAVE  &kp LBKT  &kp RBKT  &kp BSPC                 &kp SPACE  &kp LEFT_CONTROL  &kp RIGHT_CONTROL  &kp ENTER  &kp SPACE           &kp LEFT         &kp UP       &kp DOWN  &kp RIGHT   &mo 2
             >;
@@ -49,11 +49,11 @@
 
         layer_keypad {
             bindings = <
-    &trans     &tog 4    &tog 5    &tog 6     &tog 7  &tog 8            &trans  &trans     &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY   &kp MINUS
-   &kp TAB      &kp Q     &kp W     &kp E      &kp R   &kp T             &none   &none      &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS    &kp BSLH
-   &kp ESC      &kp A     &kp S     &kp D      &kp F   &kp G             &none  &trans     &trans                                 &kp LGUI        &kp RCTRL       &none     &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
- &kp LSHFT      &kp Z     &kp X     &kp C      &kp V   &kp B             &none   &none     &trans       &none         &none      &kp PG_UP            &none       &none     &kp N  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
-     &mo 2  &kp GRAVE  &kp CAPS  &kp LEFT  &kp RIGHT  &trans            &trans  &trans  &kp PG_DN   &kp ENTER     &kp KP_N0         &kp UP         &kp DOWN  &kp KP_DOT  &kp RBKT     &trans
+    &trans  &trans  &trans  &trans  &tog 4  &tog 5            &trans  &trans     &trans  &kp KP_NUM  &kp KP_EQUAL  &kp KP_DIVIDE  &kp KP_MULTIPLY  &kp MINUS
+   &kp TAB   &kp Q   &kp W   &kp E   &kp R   &kp T             &none   &none      &kp Y   &kp KP_N7     &kp KP_N8      &kp KP_N9     &kp KP_MINUS   &kp BSLH
+   &kp ESC   &kp A   &kp S   &kp D   &kp F   &kp G             &none  &trans     &trans                                 &kp LGUI        &kp RCTRL      &none   &kp H  &kp KP_N4  &kp KP_N5  &kp KP_N6   &kp KP_PLUS    &kp SQT
+ &kp LSHFT   &kp Z   &kp X   &kp C   &kp V   &kp B             &none   &none     &trans       &none         &none      &kp PG_UP            &none      &none   &kp N  &kp KP_N1  &kp KP_N2  &kp KP_N3  &kp KP_ENTER  &kp RSHFT
+    &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &kp PG_DN   &kp ENTER     &kp KP_N0         &trans           &trans     &trans  &trans     &trans
             >;
         };
 
@@ -87,37 +87,7 @@
             >;
         };
 
-        layer_tarmac_1 {
-            bindings = <
- &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
- &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
- &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
- &trans  &trans  &key_repeat  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
- &trans  &trans       &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_Tarmak_2 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
- &trans  &trans  &trans   &kp F  &trans   &kp B            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
- &trans  &trans  &trans  &trans   &kp T   &kp G            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
- &trans  &trans  &trans  &trans  &trans   &kp V            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_TARMAK_3 {
-            bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
- &trans  &trans  &trans   &kp F   &kp J   &kp B            &trans  &trans  &trans  &trans  &trans   &kp P  &kp SEMI  &trans
- &trans  &trans   &kp R   &kp S   &kp T   &kp G            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp L   &kp O  &trans
- &trans  &trans  &trans  &trans   &kp D   &kp V            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
-            >;
-        };
-
-        layer_Tarmark__8 {
+        layer_Colemak_DH {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
  &trans  &trans  &trans   &kp F   &kp P   &kp B            &trans  &trans   &kp J   &kp L   &kp U   &kp Y  &kp SEMI  &trans

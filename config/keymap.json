@@ -7,8 +7,9 @@
     "keypad",
     "fn",
     "mod",
-    "Colemak ANSI",
-    "Colemak DH"
+    "Navigation",
+    "MouseKeys",
+    "HomeRowMods"
   ],
   "layers": [
     [
@@ -42,11 +43,17 @@
        "&trans",  "&kp B",  "&kp Z",  "&kp X",  "&kp C",  "&kp V",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
        "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",
-       "&trans", "&trans", "&trans",  "&kp F",  "&kp P",  "&kp B",           "&trans", "&trans",  "&kp J",  "&kp L",  "&kp U",  "&kp Y", "&kp SEMI", "&trans",
-       "&trans", "&trans",  "&kp R",  "&kp S",  "&kp T",  "&kp G",           "&trans", "&trans", "&trans",                     "&trans",   "&trans", "&trans",  "&kp M",  "&kp N",  "&kp E",  "&kp I",  "&kp O", "&trans",
-       "&trans", "&trans", "&trans", "&trans",  "&kp D",  "&kp V",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans",  "&kp K",  "&kp H", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",   "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
+    ], [
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }

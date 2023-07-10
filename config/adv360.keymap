@@ -77,7 +77,7 @@
             >;
         };
 
-        layer_Colemak_ANSI {
+        layer_Navigation {
             bindings = <
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
  &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
@@ -87,13 +87,23 @@
             >;
         };
 
-        layer_Colemak_DH {
+        layer_MouseKeys {
             bindings = <
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans
- &trans  &trans  &trans   &kp F   &kp P   &kp B            &trans  &trans   &kp J   &kp L   &kp U   &kp Y  &kp SEMI  &trans
- &trans  &trans   &kp R   &kp S   &kp T   &kp G            &trans  &trans  &trans                  &trans    &trans  &trans   &kp M   &kp N   &kp E   &kp I   &kp O  &trans
- &trans  &trans  &trans  &trans   &kp D   &kp V            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans   &kp K   &kp H  &trans  &trans  &trans  &trans
- &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        layer_HomeRowMods {
+            bindings = <
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+ &trans  &trans  &trans  &trans  &trans  &trans            &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
 

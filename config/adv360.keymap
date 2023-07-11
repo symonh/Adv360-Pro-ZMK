@@ -57,7 +57,7 @@
     ZMK_MACRO(u_macro_btn3, wait-ms = <0>; bindings = <&kp KP_ASTERISK &kp KP_N5>;)
   };
 };
- {
+/ {
   behaviors {
     u_mt: u_mt {
       compatible = "zmk,behavior-hold-tap";

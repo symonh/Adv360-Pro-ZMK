@@ -12,11 +12,11 @@
         Base0 {
             label = "Base";
             bindings = <
-&none                 &none         &none         &none          &none        &none          &none        &none        &none         &none        &none  &none     &none  &none
-&none                 &kp Q         &kp W         &kp F          &kp P        &kp B          &none        &none        &kp J         &kp L        &kp U  &kp Y  &kp SEMI  &none
-&none  &u_mt LEFT_CONTROL A  &u_mt LALT R  &u_mt LGUI S  &u_mt LSHFT T        &kp G          &none        &none        &none                             &none     &none  &none  &kp M  &u_mt RSHFT N  &u_mt RGUI E    &u_mt RALT I  &u_mt RCTRL O  &none
-&none             &u_lt 3 Z  &u_mt RALT X         &kp C          &kp D        &kp V          &none        &none        &none         &none        &none  &none     &none  &none  &kp K          &kp H     &kp COMMA  &u_mt RALT DOT  &u_lt 3 SLASH  &none
-&none                 &none         &none         &none          &none  &u_lt 6 ESC  &u_lt 4 SPACE  &u_lt 5 TAB  &u_lt 8 RET  &u_lt 7 BSPC  &u_lt 9 DEL  &none     &none  &none  &none          &none
+     &kp EQUAL                &kp N1            &kp N2             &kp N3         &kp N4  &kp NUMBER_5      &kp RETURN                 &none           &kp NUMBER_6          &kp N7         &kp N8        &kp N9        &kp N0      &kp MINUS
+       &kp ESC                 &kp Q             &kp W              &kp F          &kp P         &kp B  &kp LEFT_SHIFT                 &none                  &kp J           &kp L          &kp U         &kp Y      &kp SEMI  &kp BACKSLASH
+       &kp TAB  &u_mt LEFT_CONTROL A      &u_mt LALT R       &u_mt LGUI S  &u_mt LSHFT T         &kp G         &kp TAB              &kp LGUI               &kp LALT                                     &kp RALT         &none          &none      &kp M  &u_mt RSHFT N  &u_mt RGUI E    &u_mt RALT I  &u_mt RCTRL O          &kp SQT
+&kp LEFT_SHIFT             &u_lt 3 Z      &u_mt RALT X              &kp C          &kp D         &kp V           &none                 &none              &kp GRAVE           &none          &none  &kp CAPSLOCK         &none          &none      &kp K          &kp H     &kp COMMA  &u_mt RALT DOT  &u_lt 3 SLASH  &kp RIGHT_SHIFT
+         &none            &kp RETURN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET        &kp DEL  &u_lt 6 BSPC   &u_lt 4 SPACE  &u_lt 5 LEFT_CONTROL  &u_lt 8 RIGHT_CONTROL  &u_lt 7 RETURN  &u_lt 9 SPACE      &kp LEFT  &kp UP_ARROW       &kp DOWN  &kp RIGHT          &none
             >;
         };
 
@@ -116,6 +116,16 @@
 &none  &kp F11  &kp F4  &kp F5  &kp F6         &kp SLCK      &none    &none  &none                                     &none        &none  &none  &none    &kp LSHFT      &kp LCTRL  &kp LALT  &kp LGUI  &none
 &none  &kp F10  &kp F1  &kp F2  &kp F3  &kp PAUSE_BREAK      &none    &none  &none         &none          &none        &none        &none  &none  &none  &u_to_U_FUN  &u_to_U_MEDIA  &kp RALT     &none  &none
 &none    &none   &none   &none   &none        &kp K_APP  &kp SPACE  &kp TAB  &none         &none          &none        &none        &none  &none  &none        &none
+            >;
+        };
+
+        layer_10 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
